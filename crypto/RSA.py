@@ -1,6 +1,7 @@
 from functools import reduce
 import math
 
+
 def mul_inv(a, n):
     """
     Extended Euclidean algorithm for Modular multiplicative inverse
@@ -74,6 +75,7 @@ def inv_pow(x, n):
 
 def gcd(*numbers):
     """
+    Greatest common divisor
 
     :param numbers: list of numbers
     :return: greatest common divisor of numbers
