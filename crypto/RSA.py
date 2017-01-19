@@ -73,7 +73,7 @@ def inv_pow(x, n):
     return mid + 1
 
 
-def gcd(*numbers):
+def gcd(numbers):
     """
     Greatest common divisor
 
